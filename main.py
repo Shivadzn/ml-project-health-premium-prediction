@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from prediction_helper import predict
 
-st.title("Health Insurance Prediction App")
+st.title("Health Insurance Cost Predictor")
 
 categorical_options = {
     'Gender': ['Male', 'Female'],
